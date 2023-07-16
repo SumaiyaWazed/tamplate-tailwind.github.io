@@ -78,6 +78,8 @@
     position: relative;
     z-index: 2;
 }
+
+
 @media (max-width: 1440px) {
     #main{
         margin: 83px 70px 40px 75px;
@@ -322,6 +324,10 @@
         top: 509px;
         left: 215px;
     }
+    
+    .container .color:nth-child(4) {
+        right: 33px;
+    }
 
     .container .color:nth-child(5) {
         right: 125px;
@@ -331,7 +337,5 @@
         width: 281px;
     }
 
-    .container .color:nth-child(4) {
-        right: 33px;
-    }
+
 }
